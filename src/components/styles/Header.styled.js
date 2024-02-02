@@ -14,7 +14,7 @@ export const StyledHeader = styled.header`
   }
 `
 
-export const MainArticle = styled.article`
+export const StyledMainArticle = styled.article`
   h1 {
     font-size: 3.5rem;
     font-weight: 1000;

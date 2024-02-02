@@ -1,10 +1,11 @@
 import { Button } from "./styles/Button.styled"
 import { Flex } from "./styles/Flex.styled"
 import { StyledImage } from "./styles/Image.styled"
+import { StyledMainArticle } from "./styles/Header.styled"
 
 export default function MainArticle() {
   return (
-    <MainArticle>
+    <StyledMainArticle>
       <StyledImage src="mainarticle.jpg" alt="" maxw="1024px" maxh="320px" />
       <Flex gap="2.2rem">
         <div>
@@ -19,6 +20,6 @@ export default function MainArticle() {
           <Button>Read more</Button>
         </div>
       </Flex>
-    </MainArticle>
+    </StyledMainArticle>
   )
 }
