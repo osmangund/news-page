@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite"
+import react from "@vitejs/plugin-react"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: "/v-news-page/",
-	plugins: [react()],
+  base: "/v-news-page/",
+  plugins: [react()],
 })
