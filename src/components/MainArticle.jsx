@@ -1,4 +1,4 @@
-import { Button } from "./styles/Button.styled"
+import { Button } from "./styles/Header.styled"
 import { Flex } from "./styles/Flex.styled"
 import { StyledImage } from "./styles/Image.styled"
 import { StyledMainArticle } from "./styles/Header.styled"
